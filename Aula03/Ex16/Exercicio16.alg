@@ -6,13 +6,18 @@ Var // Seção de Declarações das variáveis
   i, voto, votos_joao, votos_maria, votos_carlos: inteiro
 
 Inicio // Seção de Comandos
-	// contagem de 1 ate 20
+  // inicia as variaveis de contagem de voto
+  votos_joao <- 0
+  votos_maria <- 0
+  votos_carlos <- 0
+
+  // contagem de 1 ate 20
   para i de 1 ate 20 faca
-  	// pede para informar o voto
+    // pede para informar o voto
     escreval("Digite o seu voto (1-João; 2-Maria; 3-Carlos): ")
     leia(voto)
 
-		// contabiliza o voto
+    // contabiliza o voto
     escolha (voto)
     caso 1
       votos_joao <- votos_joao + 1
@@ -25,15 +30,16 @@ Inicio // Seção de Comandos
     fimescolha
   fimpara
 
-	// exibe os votos
+  // exibe os votos
   escreval("--Quantidade de votos--")
   escreval("João: ",votos_joao)
   escreval("Maria: ",votos_maria)
   escreval("Carlos: ",votos_carlos)
-	// decide o vencedor
+
+  // decide o vencedor
   se votos_joao > votos_maria e votos_joao > votos_carlos entao
     escreval("O vencedor é João")
-	senao
+  senao
     se votos_maria > votos_joao e votos_maria > votos_carlos entao
         escreval("O vencedor é Maria")
     senao
@@ -43,6 +49,6 @@ Inicio // Seção de Comandos
             escreval("Houve empate")
         fimse
     fimse
-	fimse
+  fimse
   
 FimAlgoritmo // Fim do programa

@@ -3,17 +3,21 @@ Algoritmo "Exercicio17"
 // Data: 04/08/2026
 
 Var // Seção de Declarações das variáveis
-	i, quantidade_alunos, quantidade_aprovados, quantidade_reprovados: inteiro
+  i, quantidade_alunos, quantidade_aprovados, quantidade_reprovados: inteiro
   media_aluno: real
   
 Inicio // Seção de Comandos
-	// solicita a quantidade de alunos
+  // solicita a quantidade de alunos
   escreval("Informe a quantidade de alunos: ")
   leia(quantidade_alunos)
   
+  // inicia as variaveis "quantidade_aprovados" e "quantidade_reprovados"
+  quantidade_aprovados <- 0
+  quantidade_reprovados <- 0
+  
   // conta de 1 ate a quantidade de alunos
-	para i de 1 ate quantidade_alunos passo 1 faca
-  	// solicita a media do aluno
+  para i de 1 ate quantidade_alunos passo 1 faca
+    // solicita a media do aluno
     escreval("Informe a média: ")
     leia(media_aluno)
     

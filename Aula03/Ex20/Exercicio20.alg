@@ -1,16 +1,16 @@
-Algoritmo "Exercicio20"
+algoritmo "Exercicio20"
 // Autor: Daniel Medeiros da Silva
 // Data: 04/08/2026
 
-Var // Seção de Declarações das variáveis
-	nota_cliente, soma_notas, quantidade_respostas, notas_5, notas_1: inteiro
+var // Seção de Declarações das variáveis
+  nota_cliente, soma_notas, quantidade_respostas, notas_5, notas_1: inteiro
   media_notas: real
   
-Inicio // Seção de Comandos
-	// até o usuario digitar zero, faz:
+inicio // Seção de Comandos
+  // até o usuario digitar zero, faz:
   repita
   	repita // solicita a nota ate o usuario digitar uma nota valida
-    	escreval("Informe uma nota de 1 a 5: ")
+    	escreval("Informe uma nota de 1 a 5 (0 para encerrar): ")
     	leia(nota_cliente)
       
       se (nota_cliente < 0 ou nota_cliente > 5) entao
@@ -31,16 +31,19 @@ Inicio // Seção de Comandos
     	se (nota_cliente = 1) entao
       	notas_1 <- notas_1 + 1
     	fimse
- 		fimse 
+    fimse 
   ate (nota_cliente = 0)
   
-  // calcula a media das notas
-  media_notas <- soma_notas / quantidade_respostas
-  
-  // exibe as informações
-  escreval("Quantidade de respostas: ",quantidade_respostas)
-  escreval("Média das notas: ",media_notas)
-  escreval("Notas 5: ",notas_5)
-  escreval("Notas 1: ",notas_1)
-  
-FimAlgoritmo // Fim do programa
+  // calcula a media das notas e exibe as informacoes se a quantidade de respostas for maior que 0
+  se (quantidade_respostas > 0) entao
+    media_notas <- soma_notas / quantidade_respostas
+
+    // exibe as informações
+    escreval("Quantidade de respostas: ",quantidade_respostas)
+    escreval("Média das notas: ",media_notas)
+    escreval("Notas 5: ",notas_5)
+    escreval("Notas 1: ",notas_1)
+  senao
+    escreval("Nenhuma resposta registrada")
+  fimse
+fimalgoritmo // Fim do programa

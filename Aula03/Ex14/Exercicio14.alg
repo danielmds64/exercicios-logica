@@ -3,12 +3,15 @@ Algoritmo "Exercicio14"
 // Data: 04/08/2026
 
 Var // declaracao de variaveis
-	numero, soma, i: inteiro
+  numero, soma, i: inteiro
   
 Inicio // inicio do programa
   // solicita um numero
   escreval("Digite um número: ")
-	leia(numero)
+  leia(numero)
+  
+  // inicia a variavel soma
+  soma <- 0
   
   // contagem de 1 ate o numero informado
   para i de 1 ate numero passo 1 faca
