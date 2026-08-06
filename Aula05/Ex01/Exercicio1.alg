@@ -20,7 +20,7 @@ Inicio // Seção de Comandos
   escreval("IMC = ",imc)
   
   // classifica e exibe uma mensagem de acordo com o imc
-  se (imc <= 18.5) entao
+  se (imc < 18.5) entao
     escreval("Abaixo do peso")
   senao
     se (imc <= 24.9) entao

@@ -1,4 +1,4 @@
-algoritmo "Exercício4"
+algoritmo "Exercício5"
 // Autor: Daniel Medeiros da Silva
 // Data: 05/08/2026
 

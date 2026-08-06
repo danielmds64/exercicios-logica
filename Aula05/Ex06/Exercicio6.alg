@@ -1,4 +1,4 @@
-algoritmo "Exercício4"
+algoritmo "Exercício6"
 // Autor: Daniel Medeiros da Silva
 // Data: 05/08/2026
 
@@ -14,19 +14,19 @@ inicio // Inicio do programa
   // exibe o nome e preço com base na escolha do usuário
   escolha opcao
   caso 1
-    escreval("Nome do pedido: \"X-Burguer\"")
+    escreval("Nome do pedido: X-Burguer")
     escreval("Preço: R$25,00")
   caso 2
-    escreval("Nome do pedido: \"Pizza\"")
+    escreval("Nome do pedido: Pizza")
     escreval("Preço: R$65,00")
   caso 3
-    escreval("Nome do pedido: \"Batata\"")
+    escreval("Nome do pedido: Batata")
     escreval("Preço: R$7,00")
   caso 4
-    escreval("Nome do pedido: \"Refrigerante\"")
+    escreval("Nome do pedido: Refrigerante")
     escreval("Preço: R$6,00")
   caso 5
-    escreval("Nome do pedido: \"Sorvete\"")
+    escreval("Nome do pedido: Sorvete")
     escreval("Preço: R$3,00")
   outrocaso
     escreval("Produto inexistente")

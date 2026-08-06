@@ -13,6 +13,7 @@ Inicio // Seção de Comandos
   // exibe o desconto com base no valor da compra
   se (valor_compra <= 100) entao
     escreval("Sem desconto")
+    porcentagem_desconto <- 0
   senao
     se (valor_compra <= 300) entao
       escreval("5% de desconto")
