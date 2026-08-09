@@ -6,20 +6,21 @@ var // declaração de variáveis
   valor_total, valor_produto: real 
 
 inicio // inicio do programa
-  // inicia as variaveis
+  // inicia a variavel de total da compra
   valor_total <- 0
-  valor_produto <- -1 // -1 pra nao iniciar como false na verificacao do enquanto
 
+	// solicita o valor do produto
+  escreval("Informe o valor do produto: R$")
+  leia(valor_produto)
+    
   // enquanto o valor do produto for diferente de zero:
   enquanto (valor_produto <> 0) faca
-  
-    // solicita o valor do produto
-    escreval("Informe o valor do produto: R$")
-    leia(valor_produto)
-
     // soma o valor do produto ao valor total
     valor_total <- valor_total + valor_produto
-
+    
+    // solicita o valor do produto novamente
+    escreval("Informe o valor do produto: R$")
+    leia(valor_produto)
   fimenquanto
 
   // exibe o valor total da compra
