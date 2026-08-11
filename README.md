@@ -140,14 +140,14 @@ Seu progresso faz parte do seu aprendizado.
 
 | Aula | Tema | Status |
 |------|------|--------|
-| Aula 01 | Introdução à Lógica | ⬜ |
-| Aula 02 | Fluxograma e Portugol | ⬜ |
-| Aula 03 | Variáveis | ⬜ |
-| Aula 04 | Operadores | ⬜ |
-| Aula 05 | Estruturas de Decisão | ⬜ |
-| Aula 06 | Estruturas de Repetição | ⬜ |
-| Aula 07 | Exercícios | ⬜ |
-| Aula 08 | Projeto Final | ⬜ |
+| Aula 01 | Introdução à Lógica | ✅ |
+| Aula 02 | Fluxograma e Portugol | ✅ |
+| Aula 03 | Variáveis | ✅ |
+| Aula 04 | Operadores | ✅ |
+| Aula 05 | Estruturas de Decisão | ✅ |
+| Aula 06 | Estruturas de Repetição | ✅ |
+| Aula 07 | Exercícios | ✅ |
+| Aula 08 | Projeto Final | ✅ |
 
 ---
 
