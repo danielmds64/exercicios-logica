@@ -13,7 +13,7 @@ var // seção de declaração de variáveis
   nome_funcionarios: vetor[0..4] de caractere 
 
   i, soma_horas: inteiro
-  media_horas, valor_hora_extra: real
+  media_horas: real
 
 inicio // seção de comandos
   // inicializa as variaveis de soma
@@ -43,6 +43,9 @@ inicio // seção de comandos
 
       // calcula o salario extra: salario extra = salario por hora x 1.5 x horas extras
       salario_extra[i] <- (salario[i] / 200) * 1.5 * horas_extras[i]
+    senao
+      horas_extras[i] <- 0
+      salario_extra[i] <- 0
     fimse
   fimpara
   escreval("")
